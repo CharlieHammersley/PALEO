@@ -1,0 +1,18 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://first.wpi.edu/FRC/roborio/maven' }
+}
+
+dependencies {
+    implementation 'edu.wpi.first.wpilibj:wpilib-java:2026.0.1'
+    implementation 'edu.wpi.first.wpiutil:wpiutil-java:2026.0.1'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
+}
