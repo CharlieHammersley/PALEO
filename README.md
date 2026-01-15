@@ -1,2 +1,3 @@
-# URCS
-Unmodified Robot Code Simulation (URCS) is a library extension to WPILib allowing for local robot simulation. without modification to any robot code.
+# PALEO
+Parallel Abstraction Library for Emulated Objects (PALEO) is a library extension to WPILib that abstracts robot hardware, allowing for robot simulation without altering robot code. PRCS is intended to allow programmers to begin working on robot code before the robot is built and wired, reducing the development bottleneck put on programming.
+
